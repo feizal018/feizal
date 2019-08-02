@@ -45,12 +45,12 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'url' => env('db4free'),
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'url' => env('DATABASE_URL'),
+            'host' => env('DB_HOST', 'db4free'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'ujikom'),
-            'username' => env('DB_USERNAME', 'feizalfikri1'),
-            'password' => env('DB_PASSWORD', 'feizalfikri01'),
+            'username' => env('DB_USERNAME', 'feizalfikri018'),
+            'password' => env('DB_PASSWORD', 'qwerty12345'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
