@@ -8,7 +8,7 @@
                 <div class="card-header">Dashboard</div>
 
                 <div class="card-body">
-                    {{auth::user->name}} Welcome to backend
+                    {{AUTH::user()->name}} Welcome to backend
                 </div>
             </div>
         </div>
